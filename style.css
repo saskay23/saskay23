@@ -1,0 +1,212 @@
+/************
+* =grid overiddes
+*************
+*/
+
+
+
+.grid_3 {margin-left: 80px;}
+
+/*****************
+* =miscellaneous
+******************
+*/
+
+.container_24 {
+    margin-top: 10px;
+}
+
+blockquote{
+    position:  relative;
+}
+
+blockquote, blockquote {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+    color: #0e0e0e;
+
+}
+
+
+
+p {
+    font-size:13px;
+    line-height: 20px;
+    color: 353535;
+}
+
+h1, h2 {
+    letter-spacing: -1px;
+}
+
+
+
+
+h3 {
+    font-size:26px;
+    text-transform: lowercase;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+
+
+}
+
+ a {
+    color: #7e7e7e;
+    text-decoration: none;
+ }
+
+
+ li {
+    margin-left: 30px;
+ }
+
+
+.button {
+    background: #242324;
+}
+
+
+
+
+a:hover, .selected {
+    color: black;      
+}
+
+
+
+
+/*   
+***************
+* =header
+***************
+*/
+header {
+    overflow: hidden;
+
+}         
+
+
+
+header h1{
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -9999;
+    width: 300px;
+    height: 150px;
+    margin:10px 10px  20px;
+    float: left;
+}
+
+/*
+******************
+* =nav
+******************
+*/
+
+
+
+ nav {
+    float:right;
+    padding-top: 12px;
+ }
+
+nav li{
+    display: inline; 
+}   
+
+
+/*
+***************
+* =banner
+***************   
+*/
+
+
+
+.banner{
+    background: url(../img/Capture.png) no-repeat;
+    width: 600px;
+    height:250px;
+    clear: both;
+    position: relative;
+    
+}
+ 
+.banner h2 {
+    color:white;
+    font-style:28px;
+    width:400px;
+    font-weight: normal;
+    position: absolute;
+    bottom:-10;
+    padding:8px;     
+    left:7px; 
+    background: rgba(0,0,0, .5)
+}
+
+
+
+ .callout {
+    background: black;
+    height: 231px;
+    margin-left: 60px;
+ }
+
+
+/*
+*************
+* =main
+*************
+*/
+
+
+.main {
+    margin-top:20px;
+}
+
+ .main blockquote p {
+    padding-left: 130px;
+ }
+
+
+
+ .main  blockquote p:before,
+  .main  blockquote p:after {
+    font-size: 40px;
+    color:#bfbfbf;
+    font-style: italic; 
+  }
+
+
+ .main  blockquote p:first-child:before {
+    content: '"';
+    position: absolute;
+    top: 5;
+    left: 110;
+ } 
+
+
+.main  blockquote p:last-child:after{
+    content: '"';
+    float: right; 
+    position: absolute;
+    bottom: -15;
+    right:15;
+}
+
+
+
+
+
+
+/*
+***************
+* =footer
+***************
+*/
+
+footer {
+    clear: both;
+}
